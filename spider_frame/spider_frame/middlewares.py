@@ -76,8 +76,7 @@ class ChangeProxy(object):
     '''
     
     def __init__(self):
-        self.get_url = "http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=17083e63ce6a4e6192e97389ee8d2b2b&count=5&expiryDate=0&format=1&newLine=2"
-        #self.get_url = "http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=6ad0b7ed0f4045a6a7df4b563b9353c0&count=5&expiryDate=0&format=1&newLine=2"
+        self.get_url = " "  #此处为代理ip的接口地址 
         self.test_url = "http://guba.eastmoney.com/list,601398_1.html"
         self.ip_list = [] #我每次抓10个IP
         self.count = 0 #第几次调用
